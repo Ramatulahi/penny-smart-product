@@ -1,0 +1,21 @@
+penny-smart-product
+│
+├── README.md
+│
+├── docs/
+│   ├── product-overview.md
+│   ├── problem-statement.md
+│   ├── user-personas.md
+│   ├── user-flows.md
+│   ├── product-requirements.md
+│   └── roadmap.md
+│
+├── research/
+│   ├── competitor-analysis.md
+│   └── market-research.md
+│
+├── design/
+│   └── figma-link.md
+│
+└── prototype/
+    └── demo-link.md
