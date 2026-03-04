@@ -1,72 +1,74 @@
-# 💰 Penny Smart
+# 💰 Penny Smart  
 ## Personal Finance Management Product
 
-Penny Smart is a **personal finance management application** designed to help individuals track their spending, manage budgets, and build sustainable savings habits.
+Penny Smart is a **personal finance management application** designed to help individuals track spending, manage budgets, and build consistent savings habits.
 
-This repository contains the **product documentation, research, strategy, and prototype resources** developed for the Penny Smart application as part of our **Product Management Capstone Project**.
+This repository contains the **product documentation, research insights, design resources, and prototype** developed for the Penny Smart application as part of our **Product Management Capstone Project**.
 
 ---
 
 # 📌 Product Overview
 
-Managing personal finances can be difficult due to limited visibility into spending patterns, lack of budgeting discipline, and difficulty maintaining savings goals.
+Managing personal finances can be challenging due to limited visibility into spending habits, poor budgeting practices, and difficulty maintaining savings goals.
 
-Penny Smart provides users with a **simple and intuitive platform** that allows them to:
+**Penny Smart** provides users with a simple platform to:
 
 - Track income and expenses
 - Monitor spending behavior
-- Create and manage savings goals
-- Set budget limits
-- Gain insights into their financial activities
+- Set and manage savings goals
+- Create budget categories
+- View financial summaries
 
-The goal is to help users **develop smarter financial habits and improve financial awareness**.
+The product focuses on **simplicity, accessibility, and financial awareness** to help users build healthier financial habits.
 
 ---
 
 # ❗ Problem Statement
 
-Many individuals struggle to maintain financial discipline due to:
+Many individuals struggle to manage their finances effectively due to:
 
-- Lack of visibility into daily expenses
-- Poor budgeting tools
-- Difficulty tracking savings goals
-- Financial apps that are overly complex
+- Poor visibility into daily spending
+- Lack of structured budgeting tools
+- Difficulty tracking savings progress
+- Financial applications that are too complex
 
-There is a need for a **simple and accessible financial management solution** that helps users stay aware of their financial behavior.
+There is a need for a **simple and intuitive financial management solution** that enables users to monitor their financial behavior and improve their financial discipline.
 
 ---
 
 # 💡 Proposed Solution
 
-Penny Smart solves this problem by providing a **clear, intuitive, and visually driven financial management platform**.
+Penny Smart addresses these challenges by providing a **clean, intuitive, and user-friendly financial management platform**.
 
 Users can:
 
 - Track transactions easily
 - Monitor spending patterns
-- Create savings goals
-- Manage budget categories
-- View financial summaries in real time
+- Manage savings goals
+- Set budget limits
+- View financial insights in real time
+
+The goal is to **simplify personal finance management and encourage smarter financial decisions**.
 
 ---
 
 # 🎯 Target Users
 
 ### Students
-Students who want to manage personal expenses effectively.
+Students who need a simple way to manage limited income and track daily expenses.
 
 ### Young Professionals
-Individuals tracking income, expenses, and monthly savings.
+Individuals who want to track salaries, manage spending, and build savings habits.
 
-### Budget-Conscious Users
-People trying to build better financial habits.
+### Budget-Conscious Individuals
+People who want better visibility into their financial activities.
 
 ---
 
-# ✨ Key Features
+# ✨ Key Product Features
 
-## Dashboard
-Provides a real-time overview of financial activity including:
+## 📊 Dashboard
+Provides a central overview of financial activity including:
 
 - Wallet balance
 - Weekly spending trends
@@ -74,7 +76,10 @@ Provides a real-time overview of financial activity including:
 - Savings progress
 - Recent transactions
 
-## Savings Goals
+---
+
+## 💰 Savings Goals
+
 Users can:
 
 - Create savings goals
@@ -82,39 +87,56 @@ Users can:
 - Track savings progress
 - Add or withdraw funds
 
-## Budget Management
+---
+
+## 📊 Budget Management
+
 Allows users to:
 
 - Create spending categories
-- Allocate budgets
-- Monitor spending vs budget
+- Allocate budget limits
+- Track spending against budgets
 
-## Transaction Tracking
+---
+
+## 💳 Transaction Tracking
+
 Users can:
 
 - Record income and expenses
 - Categorize transactions
-- Review transaction history
+- View transaction history
 
 ---
 
 # 🎨 Product Design
 
-Figma Design Link:
+The design process for Penny Smart involved **low-fidelity wireframes and an interactive prototype**.
 
-```
-Insert Figma Link Here
-```
+### Low Fidelity Wireframes
+
+https://www.figma.com/design/Ijad8EaQpGA2m7f3HNLweD/Untitled?node-id=0-1&t=fLkqyb5jpu29hDCe-1
+
+These wireframes were used to define:
+
+- Application layout
+- User flow
+- Feature structure
+- Navigation
 
 ---
 
-# 🧪 Prototype
+### Interactive Prototype
 
-Prototype Link:
+https://stop-stain-04589424.figma.site
 
-```
-Insert Prototype / Demo Link
-```
+The prototype demonstrates the full user journey including:
+
+- Onboarding flow
+- Dashboard overview
+- Savings management
+- Budget tracking
+- Transaction recording
 
 ---
 
@@ -122,39 +144,61 @@ Insert Prototype / Demo Link
 
 Detailed product documentation can be found in the **docs folder**.
 
-- Product Overview
-- Problem Statement
-- User Personas
-- User Flows
-- Product Requirements
-- Product Roadmap
+- [Product Overview](docs/product-overview.md)
+- [Problem Statement](docs/problem-statement.md)
+- [User Personas](docs/user-personas.md)
+- [User Flows](docs/user-flows.md)
+- [Product Requirements](docs/product-requirements.md)
+- [Product Roadmap](docs/roadmap.md)
 
 ---
 
 # 🔍 Research
 
-Research insights including **competitor analysis and market research** are available in the **research folder**.
+Research insights and market analysis can be found in the **research folder**.
+
+- [Competitor Analysis](research/competitor-analysis.md)
+- [Market Research](research/market-research.md)
+
+These insights helped guide product strategy and feature prioritization.
+
+---
+
+# 🧪 Prototype
+
+A clickable prototype of Penny Smart is available here:
+
+https://stop-stain-04589424.figma.site
 
 ---
 
 # 🚀 Product Roadmap
 
-Future planned improvements include:
+Future product improvements include:
 
 - Investment tracking
 - Bill reminders
 - AI-powered financial insights
 - Multi-currency support
-- Bank integrations
+- Bank account integrations
 
 ---
 
 # 👥 Product Team
 
-This project was developed as part of a **TS Academy Product Management Capstone Project**.
+This project was developed as part of a **Product Management Capstone Project**.
+
+Team roles include:
+
+- Product Manager  
+- Product Designer  
+- Research Lead  
+- Product Strategist  
 
 ---
 
 # 📌 Project Status
 
 Current Stage: **MVP / Prototype**
+
+Future iterations will focus on expanding financial insights and integrating external financial services.
