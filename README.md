@@ -151,7 +151,7 @@ Future planned improvements include:
 
 # 👥 Product Team
 
-This project was developed as part of a **Product Management Capstone Project**.
+This project was developed as part of a **TS Academy Product Management Capstone Project**.
 
 ---
 
