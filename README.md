@@ -1,9 +1,9 @@
-# 💰 Penny Smart  
+# 💰 Penny Smart
 ## Personal Finance Management Product
 
 Penny Smart is a **personal finance management application** designed to help individuals track spending, manage budgets, and build consistent savings habits.
 
-This repository contains the **product documentation, research insights, design resources, and prototype** developed for the Penny Smart application as part of our **Product Management Capstone Project**.
+This repository contains the **product documentation, research insights, design resources, prototype, and build evidence** developed for the Penny Smart application as part of our **Product Management Capstone Project**.
 
 ---
 
@@ -32,7 +32,7 @@ Many individuals struggle to manage their finances effectively due to:
 - Difficulty tracking savings progress
 - Financial applications that are too complex
 
-There is a need for a **simple and intuitive financial management solution** that enables users to monitor their financial behavior and improve their financial discipline.
+There is a need for a **simple and intuitive financial management solution** that enables users to monitor their financial behavior and improve financial discipline.
 
 ---
 
@@ -111,38 +111,63 @@ Users can:
 
 # 🎨 Product Design
 
-The design process for Penny Smart involved **low-fidelity wireframes and an interactive prototype**.
+The design process involved **low-fidelity wireframes and an interactive prototype**.
 
 ### Low Fidelity Wireframes
 
 https://www.figma.com/design/Ijad8EaQpGA2m7f3HNLweD/Untitled?node-id=0-1&t=fLkqyb5jpu29hDCe-1
 
-These wireframes were used to define:
-
-- Application layout
-- User flow
-- Feature structure
-- Navigation
-
----
-
 ### Interactive Prototype
 
 https://stop-stain-04589424.figma.site
 
-The prototype demonstrates the full user journey including:
+The prototype demonstrates:
 
-- Onboarding flow
+- User onboarding
 - Dashboard overview
-- Savings management
-- Budget tracking
-- Transaction recording
+- Savings goals
+- Budget management
+- Transaction tracking
+
+---
+
+# 🏗 Architecture Overview
+
+The Penny Smart prototype follows a **simple frontend architecture with mocked data storage**.
+
+```mermaid
+flowchart TD
+
+User[User]
+
+UI[Frontend Interface<br>Dashboard / Savings / Budget]
+
+Logic[Application Logic<br>Transactions / Budget Calculations]
+
+Storage[(Mock Data Storage)]
+
+User --> UI
+UI --> Logic
+Logic --> Storage
+Storage --> UI
+```
+
+### Architecture Explanation
+
+User Interface  
+Users interact with the dashboard, savings, budget, and transaction screens.
+
+Application Logic  
+Handles financial calculations such as budget tracking and savings progress.
+
+Data Storage  
+Mock data storage simulates persistent data such as transactions and user balance.
 
 ---
 
 # 📚 Documentation
 
-Detailed product documentation can be found in the **docs folder**.
+Detailed documentation is available in the **docs folder**.
 
 - [Product Overview](docs/product-overview.md)
 - [Problem Statement](docs/problem-statement.md)
@@ -150,23 +175,22 @@ Detailed product documentation can be found in the **docs folder**.
 - [User Flows](docs/user-flows.md)
 - [Product Requirements](docs/product-requirements.md)
 - [Product Roadmap](docs/roadmap.md)
+- [Build Evidence](docs/build-evidence.md)
 
 ---
 
 # 🔍 Research
 
-Research insights and market analysis can be found in the **research folder**.
+Research insights are available in the **research folder**.
 
 - [Competitor Analysis](research/competitor-analysis.md)
 - [Market Research](research/market-research.md)
-
-These insights helped guide product strategy and feature prioritization.
 
 ---
 
 # 🧪 Prototype
 
-A clickable prototype of Penny Smart is available here:
+Interactive prototype:
 
 https://stop-stain-04589424.figma.site
 
@@ -174,7 +198,7 @@ https://stop-stain-04589424.figma.site
 
 # 🚀 Product Roadmap
 
-Future product improvements include:
+Future improvements include:
 
 - Investment tracking
 - Bill reminders
@@ -190,10 +214,10 @@ This project was developed as part of a **Product Management Capstone Project**.
 
 Team roles include:
 
-- Product Manager  
-- Product Designer  
-- Research Lead  
-- Product Strategist  
+- Product Manager
+- Product Designer
+- Research Lead
+- Product Strategist
 
 ---
 
